@@ -1,0 +1,40 @@
+/*GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+   width: 100%;
+}
+
+.nav__menu_right{
+    display: none;
+}
+
+.nav__menu{
+    background-color: #674582; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu_mobile{
+   width: 60px;
+    padding: 10px;
+
+}
+
+.nav__menu_left{
+
+    
+}

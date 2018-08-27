@@ -1,0 +1,60 @@
+
+/*GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.container{
+   width: 960px;
+}
+
+.nav__logo
+
+.nav__menu_right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu_right_links{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.nav__menu_right_icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+   
+}
+
+.nav__menu{
+    background-color: #674582; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu_mobile{
+    display: none;
+
+}
+
+.nav__menu_left{
+    
+}
