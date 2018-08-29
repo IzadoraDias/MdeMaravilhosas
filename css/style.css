@@ -15,15 +15,19 @@ a{  color:  white;
 }
 
 .container{
-    width: 100%;
+    width:90%;
+    display: flex;
+    justify-content: center;
 }
 
 /*NAV MOBILE*/
 
-.nav__menu{
-    background-color: #674582; 
+.nav{
+    background-color:#674582;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 55px;
+    align-items: center;
 }
 
 .nav__logo_left{
@@ -31,7 +35,8 @@ a{  color:  white;
 }
 
 .nav__menu_mobile{
-    width: 60px;
+    width: auto;
+    height: 45px;
     padding: 10px;
     margin: 0 10px;
  }
@@ -59,10 +64,6 @@ a{  color:  white;
          
  }
 
- h1{
-    margin-top: 115px;
-    font-size: 1rem;
- }
 
  h4{
     font-size: 0.5rem;
@@ -80,7 +81,11 @@ a{  color:  white;
 
  /*PERFIL DAS MULHERES*/
 
-.perfils > h1{
+ .perfils{
+     text-align: center;
+ }
+
+.perfils h1{
     margin: 0;
     color: #674582;
     font-family:'Roboto', sans-serif;
@@ -90,6 +95,9 @@ a{  color:  white;
 
 .persona{
    text-align: center;
+   text-align: center;
+   display: flex;
+   flex-flow: nowrap;
 }
 
 .persona img{
@@ -98,12 +106,112 @@ a{  color:  white;
     width: 100px;
 }
 
+.picture{
+    margin: 10px;
+}
+
+
 
 
 P{
     font-size: 1rem;
     color: black;
 }
+
+/*RODAPÉ*/
+
+footer{  
+     
+}
+
+.footer--gray{
+    background-color: #323534;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__1--3{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer__2--3{
+    height: 10px;
+}
+
+logo--fb{
+    height: 10px
+}
+
+.footer--darkgray{
+    background-color: #292A2A;
+    color: white; 
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+/*PÁGINA NINA SIMONE*/
+
+.banner--nina{
+    background: url(../img/nina_piano.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 220px;
+ }
+
+ .title--simone h1{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: baseline;
+    margin-top: 185px;
+ }
+
+ .title{
+    margin: 18px auto;
+
+ }
+
+ .pic--introdution p{
+     color: #674582;
+ }
+
+
+/*TEXTO NINA SIMONE*/
+
+.nina{
+    color: #674582;
+}
+
+.title{
+    text-align: center;
+}
+
+.pic__introdution{
+    display: flex;
+    
+}
+.pic--ninasimone{
+     height: 170px;
+     width:  auto;
+ }
+
+ .frase{
+    margin: 25px;
+    border: 1px solid #674582;
+    padding: 10px;
+    text-align: center;
+ }
+
+/*AUTORA REPROGRAMA*/
+
 
 
 
