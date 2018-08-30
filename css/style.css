@@ -111,9 +111,7 @@ a{  color:  white;
 }
 
 
-
-
-P{
+.picture P{
     font-size: 1rem;
     color: black;
 }
@@ -181,27 +179,45 @@ logo--fb{
 
  .pic--introdution p{
      color: #674582;
+     font-size: 1rem;
  }
 
 
 /*TEXTO NINA SIMONE*/
 
+.container--all{
+   margin: 20px;
+
+}
+
 .nina{
     color: #674582;
 }
 
+.nina p{
+    font-size: 0.9rem;
+    margin: 10px;
+}
+
 .title{
     text-align: center;
+    font-size: 1rem;
 }
 
 .pic__introdution{
+    margin: 10px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 .pic--ninasimone{
-     height: 170px;
-     width:  auto;
+    height: 195px;
+    width: 180px;
  }
+
+
+
 
  .frase{
     margin: 25px;
@@ -211,6 +227,33 @@ logo--fb{
  }
 
 /*AUTORA REPROGRAMA*/
+
+.autora{
+    background-color: #C083B9;    
+    background: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autora--pic{
+    height: 140px;
+    
+}
+
+.autora--text{
+    padding: 10px;
+}
+
+
+
+/*BOTÃO*/
+
+.btn--footer{
+    text-align: center;
+    margin: 35px;
+
+}
 
 
 
