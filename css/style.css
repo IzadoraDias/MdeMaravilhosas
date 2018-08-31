@@ -118,31 +118,40 @@ a{  color:  white;
 
 /*RODAPÉ*/
 
-footer{  
-     
-}
-
 .footer--gray{
     background-color: #323534;
-    height: 190px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-between;
+
 }
 
 .footer__1--3{
-    margin-top: 10px;
+    margin: 20px 0 10px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-footer__2--3{
-    height: 10px;
+.footer{
+    margin: 10px;
 }
 
-logo--fb{
-    height: 10px
+.footer--logo{
+    height: 48px;
+    margin: 10px;
+}
+
+.logo--fb{
+    height: 33px;
+    margin: 10px;
+}
+
+.footer__3--3{
+    display: flex;
+    align-items: center;
 }
 
 .footer--darkgray{
@@ -158,7 +167,7 @@ logo--fb{
 /*PÁGINA NINA SIMONE*/
 
 .banner--nina{
-    background: url(../img/nina_piano.jpg);
+    background: url(../img/ninasimone.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -234,6 +243,7 @@ logo--fb{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 140px;
 }
 
 .autora--pic{

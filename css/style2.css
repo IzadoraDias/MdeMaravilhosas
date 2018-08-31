@@ -7,6 +7,13 @@ a{
     padding: 10px;
     color:white;
     text-align: center;
+
+}
+
+.footer--gray{
+   display: flex;
+   justify-content: center;
+
 }
 
 .nav{
@@ -16,8 +23,7 @@ a{
 }
 
 .container{
-   width: 960px;
-   margin: auto;
+   width: 100%;
 }
 
 .nav__logo_left{
@@ -40,12 +46,10 @@ a{
     font-size:16px;
     align-items: center;
     display: flex;
-    width: 344px;
-    margin: 32px;
+     margin: 32px;
 }
 
 .nav__menu_right_icons{
-    width: 437px;
     align-items: center;
     display: flex;
    
